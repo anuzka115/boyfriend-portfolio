@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Boyfriend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/webp" href="./images/heart.webp">
+</head>
+<body>
+    <header>
+        <div><img src="./images/heart.webp" height="50px" width="50px" id="heartimage"></div>
+        <script>
+            // Add a click event to the heart image
+            document.getElementById("heartimage").addEventListener("click", function() {
+                alert("I love you! ❤️");
+            });
+        </script>
+        <div class="nav">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <div class="aboutmeheading"><h1>About Me</h1></div>
+            <div class="aboutme">
+            <div class="vikasphoto">
+                <img src="./images/vikas.jpg" height="350" width="350">
+            </div>
+            <div class="textabout">
+                <h1 class="vikas">Hello, I am Vikas!</h1>
+            <p> I am a professional boyfriend with an experience of 1+ years. Efficient and skilled in providing premium emotional support, delivering world class cuddles and ensuring consistent good vibes. As a results driven multitasker, I specialize in creating smiles, fixing bad days and offering unlimited hugs as per service.</p>
+            </div>
+            </div>
+        </section>
+        <section id="experience" class="section">
+            <div class="experienceheading"><h1>Experience</h1></div>
+            <section class="col">
+                <div class="contents">
+                    
+                    <div class="box">
+                        <h4>Feb 2023 - Aug 2023</h4>
+                        <h3>Best Friend - Anushka's</h3>
+                        <p>Managed day to day mood swings, fixed bad days and went for walks</p>
+                    </div>
+    
+                    <div class="box">
+                        <h4>Sept 2023 - Nov 2023 </h4>
+                        <h3>Boyfriend Trainee - Anushka's</h3>
+                        <p>Personal therapist, lovable dork, texting specialist</p>
+                    </div>
+    
+                    <div class="box">
+                        <h4>Nov 2023 - Present</h4>
+                        <h3>Full Time Boyfriend - Anushka'a</h3>
+                        <p>Cuddling and hugging expert, gossip specialist, 98% success rate in giving smiles, Personal annoyance handler</p>
+                    </div>
+    
+                </div>
+            </section>
+        </section>
+        <section id="skills" class="section">
+            <div class="skillsheading"><h1>Skills Summary</h1></div>
+            <div class="skills">
+                <p>Movie Partner</p>
+                <p>Funny</p>
+                <p>Cute</p>
+                <p>Smart</p>
+                <p>Plato Partner</p>
+                <p>Spider Eliminator</p>
+                <p>Protector</p>
+                <p>Caring</p>
+                <p>Handsome</p>
+                <p>Dependable</p>
+                <p>Green Flag</p>
+                <p>Thoughtful</p>
+                <p>Supportive</p>
+                <p>Husband Material</p>
+                <p>Spicy</p>
+                <p>Kind</p>
+                <p>Cube Solving</p>
+                <p>Charming</p>
+                <p>Emotional Support Giving</p>
+                <p>Understanding</p>
+                <p>Strong</p>
+                <p>Empathetic</p>
+                <p>Nickname Providing</p>
+                <p>Cuddling</p>
+                <p>Making Out</p>
+                <p>Reel Sending</p>
+                <p>Date planning</p>
+                <p>Gift giving</p>
+            </div>
+        </section>
+        <section id="testimonials" class="section">
+            <div class="testimonialsheading"><h1>Testimonials</h1></div>
+            <div class="anushka">
+            <div><h2>Hear from my employer...</h2></div>
+            <div><p><h1>"I</h1> have had Vikas as a boyfriend for OVER A YEAR and i have nothing but good things to say. I have been in a better mood, been feeling loved, taken care of, safe and most importantly understood. The best thing is he is always ready to do anything with me, watch a show, listen to me explain something for an hour, go out for a date, literally anything. I am super satisfied with his services and will definitely only choose him in future."</p></div>
+            <div><h3>-Anushka, a proud girlfriend</h3></div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <button id="contactme" class="button-19" onclick="myFunc()">Contact Me</button>
+            <div id="demo"></div>
+            <script>
+                function myFunc(){
+                   var outdiv= document.getElementById("demo");
+                   outdiv.innerText="DONT CONTACT ME I'M TAKEN";
+                   outdiv.style.color = "red";
+                   outdiv.style.fontSize="18px";
+                }
+            </script>
+        </section>
+    </div>
+</body>
+</html>

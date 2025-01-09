@@ -1,0 +1,181 @@
+body{
+    font-family: "Pixelify Sans",sans-serif;
+    background-color:#9d9fae;
+    color:black;
+    border:22px solid black;
+    margin: 0;
+    padding: 0px;
+    border-bottom: 40px solid black;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+.nav a{
+    color: black;
+
+    font-size: 20px;
+    padding: 20px;
+}
+.aboutme{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   padding-left: 200px;
+   padding-right: 200px;
+   padding-bottom: 0px;
+}
+.aboutmeheading,.experienceheading,.skillsheading,.testimonialsheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmeheading h1{
+    font-size: 30px;
+}
+.experienceheading h1{
+    font-size: 30px;
+}
+.skillsheading h1,.testimonialsheading h1{
+    font-size: 30px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-left: 2px dashed black;
+    padding-left: 20px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.skills p{
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.anushka{
+    margin-left: 500px;
+    margin-right: 500px;
+   background-color: grey;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 8px;
+
+}
+.anushka h1{
+    display: inline;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Pixelify Sans",sans-serif;
+  font-size: 15px;
+  font-weight: 20px;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 30%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color:grey;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+.demo{
+    color:red;
+}
+.textabout{
+    padding-left:50px;
+    padding-right:150px;
+    background-color: gray;
+    border: 1px solid black;
+
+}
+#contact img{
+    padding-left: 250px;
+}
+.box h3{
+    background-color: grey;
+}
+#heartimage{
+    padding-left: 40px;
+}
+#skills,#experience,#testiomonials{
+    padding-bottom: 40px;
+}
